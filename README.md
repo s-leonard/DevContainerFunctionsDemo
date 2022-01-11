@@ -7,7 +7,7 @@
 
 `az login`
 
-### Run the folowing script
+### Run the folowing script in the Integrated terminal
 
 ```
 RG_NAME=rgcc$(date +%s%N | md5sum | cut -c1-6)
